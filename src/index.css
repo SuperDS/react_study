@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Fira Sans', sans-serif;
+}
+
+main{
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.w_button{
+  background-color: lightskyblue;
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  border-color: lightskyblue;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: lightgray;
+}
+.onit{
+  text-align: center;
+}
+
+.flexbox{
+  display: flex;
+  justify-content: space-between; /*무슨옵션이지*/
+
+  width: 100%;
+  max-width: 768px;
+  height: 768px;
+
+  overflow: hidden; /*무슨옵션이지*/
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.flexbox .board
+{
+  border-radius: 30px;
+
+  display: flex; /*무슨옵션이지*/
+  flex-direction: column; /*무슨옵션이지*/
+  width: 100%;
+  max-width: 300px;
+
+  background-color: red;
+  padding : 15px; /*무슨옵션이지*/
+
+}
+.flexbox .board .card{
+  padding: 25px 25px;
+  background-color: #f3f3f3;
+
+  cursor: pointer;   /*무슨옵션이지*/
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width : 200px;
+  height: 100px;
+
+}
+
+.flexbox .home
+{
+  border-radius: 30px;
+
+  display: flex; /*무슨옵션이지*/
+  flex-direction: column; /*무슨옵션이지*/
+  width: 100%;
+  max-width: 1000px;
+
+  background-color: skyblue;
+   padding : 15px; /*무슨옵션이지*/
+   border-color: black;
+
+}
+.flexbox .home .card{
+  padding: 25px 25px;
+  background-color: #f3f3f3;
+
+  width : 200px;
+  height: 95px;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+
+
+  cursor: pointer;   /*무슨옵션이지*/
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+}
+

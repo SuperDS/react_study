@@ -1,0 +1,107 @@
+.popup{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+
+	background-color: rgba(20,20,20,0.8);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+.popup-inner{
+	position: relative;
+	padding: 32px;
+	width: 100%;
+	height: 400px;
+	max-width: 400px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 40px;
+
+	background-color: rgba(220,220,220,0.9);
+	display: table;
+}
+
+.popup-inner .close-btn
+{
+	position:absolute;
+	top: 16px;
+	right: 16px;
+}
+.popup .popup-inner .widget-name
+{
+	background-color: rgba(200,200,200,0.9);
+	text-align: center;
+}
+
+.popup .popup-inner .widget-text
+{
+	background-color: rgba(200,200,200,0.9);
+	text-align: center;
+	margin:auto;
+
+
+}
+.popup .popup-inner .wgroup
+{
+	align-items: center;
+	justify-items: center;
+}
+
+.popup .popup-inner .widget01
+{
+background-color: lightblue;
+border-color: lightblue;
+width : 60px;
+height : 60px;
+border-radius: 10px;
+margin : 5px;
+
+}
+
+.popup .popup-inner .widget02
+{
+background-color: lightblue;
+border-color: lightblue;
+width : 120px;
+height : 60px;
+border-radius: 10px;
+margin : 5px;
+
+}
+
+.popup .popup-inner .widget03
+{
+background-color: lightblue;
+border-color: lightblue;
+width : 120px;
+height : 120px;
+border-radius: 10px;
+margin : 5px;
+
+}
+
+.popup .popup-inner .card
+{
+	padding: 25px 25px;
+	background-color: #f3f3f3;
+
+	width : 200px;
+	height: 95px;
+	border-radius: 20px;
+	text-align: center;
+	align-items: center;
+	display: flex;
+
+
+	cursor: pointer;   /*무슨옵션이지*/
+	margin-top: 25px;
+	margin-bottom: 25px;
+
+}
